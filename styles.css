@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dogImage {
+    width: 300px;
+    height: auto;
+    box-shadow: black 2px;
+}
+
+h1 {
+    font-size: 5em;
+
+    font-family: "Gambetta", serif;
+    letter-spacing: -2px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: #ec1bff;
+    outline: none;
+    text-align: center;
+}
+
+h1:hover {
+    font-variation-settings: "wght" 582;
+    letter-spacing: 4px;
+}
+
+button {
+    margin: 25px;
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #ec1bff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ec1bff;
+    color: #050801;
+    box-shadow: 0 0 5px #ec1bff, 0 0 25px #ec1bff, 0 0 50px #ec1bff,
+        0 0 200px #ec1bff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+ 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
