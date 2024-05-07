@@ -1,2 +1,2 @@
-# illiterate-idiots
+# illeterate-idiots
 
